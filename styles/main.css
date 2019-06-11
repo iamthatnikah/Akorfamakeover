@@ -1,0 +1,348 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.first-menu ul, .first-menu li, .second-menu ul, .second-menu li
+{
+    display: inline-block;
+    list-style: none;
+    font-size:  15px;
+}
+.first-menu, .second-menu
+{
+    text-align: center;
+}
+#First-Nav
+{
+    background-color: rgb(202, 101, 6);
+}
+#First-Nav a
+{
+    color: #ffffff;
+    
+}
+#First-Nav .first-menu-left
+{
+    float: left;
+}
+#First-Nav .first-menu-right li:after
+{
+    content: " ";
+    height: 1px;
+    width: 1px;
+    border: 1px solid rgb(65, 58, 58);
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#First-Nav .first-menu-right
+{
+    float: right;
+}
+/*End of the First Menu*/
+
+
+/* Begining Of The Second Navigation */
+#Second
+{
+    padding: 15px 0px;
+    background-color: rgba(48, 47, 47, 0.397);
+}
+#Second .second-menu a
+{
+    color: black;
+    padding: 0px 10px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#Second .Third-Menu-bar
+{
+    padding-left: 80px;
+}
+/*End of the Second Menu*/
+
+
+
+/*The Second Wrapper Section*/
+#Second-wrapper
+{
+    background-image: url(../img/3.jpg);
+    background-attachment: fixed;
+    backface-visibility: visible;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 85vh;
+    width: 100%;
+}
+#Second-wrapper div
+{
+    text-align: center;
+}
+#Second-wrapper .showcase
+{
+    margin: 100px 300px;
+    padding: 120px;
+    background-color: rgba(0, 0, 255, 0.199);
+}
+#Second-wrapper .showcase h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 60px;
+    color: rgb(12, 12, 80);
+}
+#Second-wrapper .showcase p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #fcfcfc;
+}
+#Second-wrapper .showcase .btn
+{
+    background-color: transparent;
+    padding: 15px;
+    border: 1px solid rgb(202, 101, 6);
+    color: saddlebrown;
+    font-weight: 800;
+    margin-top: 15px;
+}
+#Second-wrapper .showcase .btn:hover
+{
+    color: #8a1313;
+    background-color: rgba(5, 5, 134, 0.507);
+    transition: 1ms ease-in-out;
+    border: 1px solid rgb(131, 139, 21);
+}
+/* End Of the Second Section */
+#Third h4
+{
+    margin-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+#Third h4 span
+{
+    color: saddlebrown;
+}
+#Third h4:before, #Third h4:after 
+{
+    content: " ";
+    height: 1px;
+    width: 35px;
+    border: 1px solid rgb(104, 38, 0);
+    display: inline-block;
+    margin: 8px 15px;
+}
+#Third #Our-Services
+{
+    margin-top: 50px;
+}
+#Third div h2
+{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(202, 101, 6);
+}
+#Third h2:after
+{
+    content: " ";
+    height: 1px;
+    width: 35px;
+    border: 1px solid rgb(104, 38, 0);
+    display: block;
+    margin: 5px 65px;
+}
+/* End of the third */
+
+/* Begining of the our services */
+#Our-Services div
+{
+    
+}
+#Forth p
+{
+    text-align: center;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+#Forth span
+{
+    color: rgb(104, 38, 0);
+}
+#Forth p:before, #Forth p:after
+{
+    content: " ";
+    height: 1px;
+    width: 100px;
+    border: 1px solid rgb(104, 38, 0);
+    display: inline-block;
+    margin: 5px 8px;
+
+}
+/*end of forth styling*/
+#Figth
+{
+    background-image: url(../img/1.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+#Figth h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+}
+#Figth #Signup
+{
+    background-color: rgb(27, 26, 26);
+    padding: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: 0 450px;
+}
+#Figth #Signup input,#Figth #Signup textarea
+{
+    margin-top: 20px;
+}
+#Figth #Signup input
+{
+    border-radius: 50px;
+    padding: 20 10px;
+    background-color: transparent;
+    background-color: rgb(78, 74, 74);
+}
+#Figth #Signup textarea
+{
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 20 10px;
+    background-color: rgb(78, 74, 74);
+}
+#Figth #Signup i
+{
+    margin-top: 30px;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    border-radius: 40px;
+}
+/*End of the Figth Section*/
+
+
+/*Beginning of the Sixth Section*/
+#Sixth h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 80px;
+}
+#Sixth span
+{
+    color: rgb(104, 38, 0);
+}
+#Sixth div
+{
+    font-size: 100px;
+    text-align: center;
+}
+/*End of the Sixth Section*/
+
+
+/*The Begining of the Seventh Section*/
+#Seventh div
+{
+    background-color: rgb(97, 96, 96);
+}
+#Seventh h5
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fcfcfc;
+    font-weight: 800;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+#Seventh p
+{
+    color: #fcfcfc;
+}
+#Seventh .btn-half
+{
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    margin-top: 2px;
+}
+#Seventh li
+{
+    list-style: none;
+}
+#Seventh li i
+{
+    height: 32px;
+	line-height: 32px;
+	margin-right: 5px;
+	text-align: center;
+	width: 32px;
+    display: inline-block;
+    border: 1px solid rgb(202, 147, 6);
+    border-radius: 50%;
+}
+
+#Seventh h5:after
+{
+    content: " ";
+    height: 1px;
+    width: 35px;
+    border: 1px solid rgb(202, 147, 6);
+    display: block;
+    margin-top: 15px;
+}
+/*End of the Seventh Section*/
+
+
+/*Begining of the Eight Section*/
+#Eight div
+{
+    background-color: rgb(61, 60, 60);
+    
+}
+#Eight .footer-Menu li
+{
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 5px;
+    margin-top: 20px;
+}
+#Eight .footer-Menu li:after
+{
+    content: " ";
+    height: 1px;
+    width: 1px;
+    border: 1px solid rgb(202, 147, 6);
+    display: inline;
+    margin-left: 15px;
+}
+#Eight .footer-Menu li a
+{
+    color: rgb(97, 96, 96);
+    font-weight: 600;
+}
+#Eight .Copyright p
+{
+    text-align: center;
+    color: rgb(97, 96, 96);
+}
